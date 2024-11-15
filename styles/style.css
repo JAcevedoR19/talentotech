@@ -1,0 +1,645 @@
+
+
+.nav-link {
+    margin-left: 15px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar a, .nav-item a {
+    color: white;
+}
+
+.navbar-options {
+    margin-left: 3rem;
+    margin-right: 2.5rem;
+}
+
+.navbar-menu .navbar-nav .nav-item .nav-link:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar-menu .dropdown-menu {
+    background-color: black;
+    border: none;
+}
+
+.navbar-menu .dropdown-menu .dropdown-item {
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-menu .dropdown-menu .dropdown-item:hover {
+    background-color: #333;
+}
+
+
+.carousel-inner img {
+    height: 35rem;
+}
+
+.benefits {
+    padding: 2rem;
+    width: 100%;
+    align-items: center;
+    height: 10rem;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 5.5rem;
+    padding: 1rem;
+}
+
+.benefits-item i {
+    font-size: 2rem;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    color: rgb(0, 119, 255);
+}
+
+.benefits-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits-text p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+}
+
+.benefits-text h3{
+    font-size: 1.2rem;
+}
+
+.promotions {
+    height: 22rem;
+    padding: 1rem;
+}
+
+.promotions-box {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.promotions-box-big {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.6)), 
+                        url('../multimedia/img/promociones/dbz.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 2rem 0 0;
+}
+
+.promotions-box-text {
+    margin-top: 8rem;
+    color: white;
+    text-align: right;
+}
+
+.promotions-box-text span {
+    color: rgb(96, 170, 255);
+    font-size: 1.2rem;
+}
+
+.promotions-box-text h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.promotions-box-text p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.promotions-box-text button {
+    margin-top: 1rem;
+}
+
+
+.promotions-box-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.promotions-box-top {
+    height: 50%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.promotions-box-top-left, .promotions-box-top-right {
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.promotions-box-top-left {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)),
+                        url('../multimedia/img/promociones/luigi.jpg');
+}
+
+.promotions-box-top-right {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)),
+                        url('../multimedia/img/promociones/warzone.jpg');
+}
+
+.promotions-box-bottom {
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)),
+                        url('../multimedia/img/promociones/resident.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.promotions-box-section-text {
+    color: white;
+    text-align: right;
+    padding: 0.8rem 0.8rem 0 0;
+    margin: 0;
+}
+
+.promotions-box-section-text span {
+    font-size: 0.8rem;
+}
+
+.promotions-box-section-text p{
+    padding: 0;
+    margin: 0;
+}
+
+.promotions-box-section-text h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.promotions-box-section-text a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+
+.promotions-box-section-text a:hover {
+    color: lightgray;
+    font-size: 1.1rem;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    margin-top: 2rem;
+}
+
+.footer-container {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-social {
+    font-size: 2rem;
+    transition: all 0.5s ease;
+    margin-right: 1.2rem;
+    display: inline-block;
+}
+
+.btn-social:hover {
+    font-size: 2.2rem;
+    transform: rotate(15deg);
+}
+
+.btn-cv span {
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+    transition: all 0.5s ease;
+    border: 2px solid white;
+    align-items: center;
+}
+
+.btn-cv span:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.contact-form {
+    width: 30rem;
+    margin: auto;
+}
+
+.contact-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input, .contact-textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 0.5rem;
+}
+
+.contact-label {
+    font-weight: 700;
+}
+
+.contact-form span {
+    color: red;
+}
+
+.contact-form p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-input:focus, .contact-textarea:focus {
+    outline: none;
+    border: 2px solid rgb(0, 119, 255);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(0, 68, 255);
+}
+
+.about-img {
+    gap: 1rem;
+
+}
+
+.about-img img {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0, 68, 255);
+    transition: all 0.5s ease;
+}
+
+.platform-xbox {
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.platform-playstation {
+    background-color: lightblue;
+    color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.platform-pc {
+    background-color: lightgray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.products-title {
+    text-align: center;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #555;
+    margin: 5px 0;
+}
+
+.product-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.screen-container {
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* ------------------------------ MEDIA QUERIES -----------------------------  */
+
+@media screen and (max-width: 1000px) {
+
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
+
+    .promotions {
+        height: max-content;
+        margin-top: 1.5rem;
+    }
+    
+    .promotions-box {
+        height: max-content;
+        flex-direction: column;
+        gap: 1.5rem;
+        background-color: aqua;
+    }
+
+    .promotions-box-big {
+        width: 100%;
+        padding: 1.2rem 1.5rem 0 0;
+        height: 10rem;
+    }
+
+    .promotions-box-text {
+        margin-top: 1rem;
+    }
+    
+    .promotions-box-text span {
+        font-size: 1rem;
+    }
+    
+    .promotions-box-text h4 {
+        font-size: 1.3rem;
+    }
+    
+    .promotions-box-text p {
+        font-size: 1rem;
+    }
+    
+    .promotions-box-text button {
+        margin-top: 0.8rem;
+    }
+
+    .promotions-box-section {
+        width: 100%;
+    }
+    
+    .promotions-box-top {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .promotions-box-top-left, .promotions-box-top-right {
+        height: 10rem;
+        width: 100%;
+    }
+    
+    .promotions-box-bottom {
+        width: 100%;
+        height: 10rem;
+    }
+    
+    .promotions-box-section-text {
+        color: white;
+        text-align: right;
+        padding: 0.8rem 0.8rem 0 0;
+        margin: 0;
+    }
+    
+    .promotions-box-section-text span {
+        font-size: 0.8rem;
+    }
+    
+    .promotions-box-section-text p{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .promotions-box-section-text h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .promotions-box-section-text a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+        transition: all 0.5s ease;
+    }
+
+    .benefits {
+        padding: 1.2rem;
+        min-height: max-content;
+        background-color: blue;
+    }
+    
+    .benefits-list {
+        min-height: max-content;
+        gap: 1rem;
+        justify-content: center;
+        background-color: blueviolet;
+        flex-wrap: wrap;
+    }
+    
+    .benefits-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 5.5rem;
+        padding: 1rem;
+    }
+    
+    .benefits-item i {
+        font-size: 2rem;
+        align-items: center;
+        margin-bottom: 0.7rem;
+        color: rgb(0, 119, 255);
+    }
+    
+    .benefits-text {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .benefits-text p {
+        font-size: 0.9rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .benefits-text h3{
+        font-size: 1.2rem;
+    }
+
+    footer {
+        width: 100%;
+        min-height: max-content;
+        background-color: black;
+        bottom: 0%;
+    }
+    
+    .footer-container {
+        min-height: max-content;
+        padding: 1.2rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .footer-container p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer-contact {
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    
+    .btn-social {
+        font-size: 1.2rem;
+        margin-right: 0.8rem;
+    }
+    
+    .btn-social:hover {
+        font-size: 1.5rem;
+    }
+    
+    .btn-cv span {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .contact-form {
+        width: 20rem;
+        margin: auto;
+    }
+    
+    .contact-form div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .contact-form span {
+        color: red;
+    }
+    
+    .contact-form p {
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
